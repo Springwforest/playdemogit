@@ -1,0 +1,4 @@
+sbt
+sbt clean idea
+scala
+play clean

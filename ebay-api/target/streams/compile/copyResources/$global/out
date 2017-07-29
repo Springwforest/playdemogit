@@ -1,0 +1,6 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/ycl/playworkspace/ebay-api/conf/evolutions,/home/ycl/playworkspace/ebay-api/target/scala-2.10/classes/evolutions)[0m
+[0m[[0mdebug[0m] [0m	(/home/ycl/playworkspace/ebay-api/conf/routes,/home/ycl/playworkspace/ebay-api/target/scala-2.10/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/home/ycl/playworkspace/ebay-api/conf/application.conf,/home/ycl/playworkspace/ebay-api/target/scala-2.10/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/ycl/playworkspace/ebay-api/conf/evolutions/default,/home/ycl/playworkspace/ebay-api/target/scala-2.10/classes/evolutions/default)[0m
+[0m[[0mdebug[0m] [0m	(/home/ycl/playworkspace/ebay-api/conf/evolutions/default/1.sql,/home/ycl/playworkspace/ebay-api/target/scala-2.10/classes/evolutions/default/1.sql)[0m

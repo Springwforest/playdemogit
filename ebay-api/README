@@ -1,0 +1,17 @@
+This is a Play application
+=====================================
+
+play clean//clean
+play compile//编译
+play run//运行，默认端口9000
+play stage//打包
+
+服务器后台运行
+nohup /var/lib/mongodb/app/project/ebay-api/target/universal/stage/bin/ebay-api -Dfetch.threads=800 &
+
+打包
+tar -c ebay-api/* | pbzip2 -c -p3 -k > ebay-api.tar.bz2效率也挺高的，pbzip2结合tar用于对文件夹压缩打包
+pbzip2 -k ebay-api用于对单个文件进行压缩打包
+
+
+tar --use-compress-program=pigz -cvpf ebay-api.tgz --exclude=/ebay-api.tgz /var/lib/mongodb/app/data/ebay-api/  更高效

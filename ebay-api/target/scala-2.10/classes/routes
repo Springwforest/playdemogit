@@ -1,0 +1,17 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                           controllers.Application.index
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
+
+POST    /addAccountFetchTask    controllers.Application.addAccountTask
+GET     /startTask              controllers.Application.startTask
+GET     /initTask               controllers.Application.initTask
+GET     /getAllTaskStatus             controllers.Application.getAllTaskStatus
+GET     /getTaskStatus/:account       controllers.Application.getTaskStatus(account:String)
+GET     /getPackageStatus       controllers.Application.getPackageStatus
+
